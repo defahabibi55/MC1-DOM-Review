@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM Review - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Test Doang</h1>
+    <div class="container">
+        <div class="box" id="box">
+            <p class="heading">Home Page</p>
+            <div class="color-box">
+                <div class="color-setup">
+                    <p>RED</p>
+                    <input id="input-red" oninput="changeRed()" type="range" value="255" min="0" max="255">
+                    <p id="red-value">255</p>
+                </div>
+                <div class="color-setup">
+                    <p>GREEN</p>
+                    <input id="input-green" oninput="changeGreen()" type="range" value="255" min="0" max="255">
+                    <p id="green-value">255</p>
+                </div>
+                <div class="color-setup">
+                    <p>BLUE</p>
+                    <input id="input-blue" oninput="changeBlue()" type="range" value="255" min="0" max="255">
+                    <p id="blue-value">255</p>
+                </div>
+                <div class="color-setup">
+                    <p>ALPHA</p>
+                    <input id="input-alpha" oninput="changeAlpha()" type="range" value="1" min="0" max="1" step=".01">
+                    <p id="alpha-value">1</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

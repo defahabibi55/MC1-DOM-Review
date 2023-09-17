@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/200/391/original/selamat-hari-pancasila-background-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.box {
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    background-image: url('https://api2.kemenparekraf.go.id/storage/app/uploads/public/621/437/6d3/6214376d3978f205929356.png');
+    background-size: cover;
+    padding: 25px;
+}
+
+.box .heading {
+    font-size: 36px;
+}
+
+.color-box {
+    display: flex;
+    gap: 30px;
+}
